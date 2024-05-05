@@ -1,9 +1,13 @@
-
+import Banner from "./Banner/Banner"
 
 const Home = () => {
   return (
-    <div>Home</div>
-  )
+    <div>
+      <div className="max-w-[1140px] mx-auto">
+        <Banner />
+      </div>
+    </div>
+  );
 }
 
 export default Home
